@@ -1,0 +1,133 @@
+body {
+    background-color: #C48FC2;
+}
+h1 {
+    color: blue;
+}
+
+
+.navbar nav ul li{
+	text-align: center;
+}
+
+li .ima1{
+  padding-top: 5px;
+  margin-left: 10px;
+  height: 40px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: white;
+  text-align: center;
+}
+
+nav li {
+  float: left;
+  display: inline;
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+nav li a {
+  display: block;
+  color: #C48FC2;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+  font-family: 'Comic Sans MS', sans-serif;
+}
+
+header{
+background-color: white;
+ margin-bottom:  5px;
+}
+
+#navbar nav li a:hover {
+  
+  color: #F6BB42;
+}
+
+.header, .sidebar, .main, .footer {
+  padding: 10px;
+}
+
+.boardpic{
+  display: grid;
+  
+  grid-template-rows: 50px 200px 50px;
+  
+  grid-template-columns: 300px 300px 300px 300px;
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+}
+.textpic{
+  display: grid;
+  
+  grid-template-rows: 50px 200px 50px;
+  
+  grid-template-columns: 300px 300px 300px 300px;
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+
+  font-family: 'Comic Sans MS', sans-serif;
+}
+
+a{
+	font-family: 'Comic Sans MS';
+	color : white;
+	font-size: 20;
+}
+
+#home{
+	font-family: 'Comic Sans MS';
+	color : white;
+	font-size: 30;
+}
+
+.textpic li a{
+	text-align: center;
+	font-size: 15;
+
+}
+
+ 
+
+
+.header { 
+  background: #8CC152; 
+}
+
+.main { 
+  background: #F6BB42; 
+  flex: 1;
+}
+
+ul li .ima2{
+  padding-top: 5px;
+  margin-left: 65px ;
+  text-align: center;
+  height: 290px;
+  width: 290px;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+
+.footer { 
+  background: #D770AD; 
+}
+
